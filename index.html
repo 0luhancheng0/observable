@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <style>
+            @import url(style.css);
+        </style>
+    </head>
+    <body>
+        <h1>Project Index Page</h1>
+        Feel free to add a high-level intro to what you have done here.  
+        <p>The links below must remain.
+        <p>
+        <a href="basicexamples.html">Basic SVG Observable Examples</a><br>
+        <a href="checklist.html">Observable Tests</a><br>
+        <a href="pong.html">Link to your Pong game</a>
+        <p>I have changed pong.ts and svgelement.ts.<br>
+            All pong game logic reside on pong.ts. And there is also a design rationale in pong.html<br>
+            And in svgelement.ts, i added another function to help detach the svg element from its parent element.<br>
+        </p>
+        <p>
+                In the game, the ball is fired towards random direction in random place from the middle line<br>
+                The mouse is followed by right-side paddle. There is an observable that observe the mousemove event of the mouse and update the state of the paddle<br>
+                The right side paddle's behavior is also lead by an observable with move the paddle towards the ball with a speed<br>
+                The first player get to 11 point will win the game, and there will be a pop up window indicate that<br>
+            </p>
+    </body>
+</html>
